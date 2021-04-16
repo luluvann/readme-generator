@@ -24,10 +24,7 @@ undefined
 undefined
 
 ## License
-undefined
-<br />
-This project is under undefined.s
-
+  This project is under the MIT license.
 
 ## Contributing
 undefined
