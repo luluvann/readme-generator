@@ -31,4 +31,4 @@ function init() {}
 // Function call to initialize app
 init();
 
-writeToFile("README",{title:"some title"})
+writeToFile("README",{title:"new title"})
