@@ -11,7 +11,6 @@ Easily and quickly generate a professional and standard README file from the com
 * [Credits](#credits)
 * [License](#license)
 * [Contributing](#contributing)
-* [Tests](#tests)
 * [Questions](#questions)
 
 ## Installation
