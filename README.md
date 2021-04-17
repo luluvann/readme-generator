@@ -8,6 +8,7 @@ Easily and quickly generate a professional and standard README file from the com
 
 * [Installation](#installation)
 * [Usage](#usage)
+* [Usage](#preview)
 * [Credits](#credits)
 * [License](#license)
 * [Contributing](#contributing)
@@ -35,6 +36,9 @@ npm install
 node index.js
 ```
 2. Answer the prompts and follow the next steps
+
+## Preview
+![](./preview-readme.gif)
 
 ## Credits
 - [Inquirer](https://www.npmjs.com/package/inquirer) Node Package
