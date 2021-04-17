@@ -1,8 +1,8 @@
-# My New Project
-[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+# README Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description 
-ewfwef
+Easily and quickly generate a professional and standard README file from the commande line.
 
 ## Table of Contents
 
@@ -15,24 +15,24 @@ ewfwef
 * [Questions](#questions)
 
 ## Installation
-ewfwef
+1. git clone this repo 2. Make sure to have NodeJS installed 3. Open the repo in your text editor 4. Open a terminal 5. cd to the root of the repo 6. Run npm install to install all the dependencies
 
 ## Usage 
-wefwfe
+1. Run the command "node index.js" 2. Answer the prompts and follow the next steps
 
 ## Credits
-wefwef
+- Inquirer Package - coding-boot-camp for the README template - lukas-h for the licenses list
 
 ## License
-  This project is covered under Creative Commons Zero v1.0 Universal.
+  This project is covered under MIT.
 
 ## Contributing
-wefwef
+1. Fork this repo 2. Make your changes 3. Make a pull request for review
 
 
 ## Tests
-weffw
+At this time, none
 
 ## Questions
-If you have any question, please go checkout my [Github profile](https://github.com/androidseb)
-or email me [thou.lucile@gmail.com](mailto:thou.lucile@gmail.com)
+If you have any question, please go checkout my [Github profile](https://github.com/luluvann)
+or email me [myemail@myemail.com](mailto:myemail@myemail.com)
