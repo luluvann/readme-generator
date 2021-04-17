@@ -1,8 +1,8 @@
-# fwefewfewfw
-[![License: MIT](https://img.shields.io/badge/License-lgpl-2.1-yellow.svg)](https://opensource.org/licenses/lgpl-2.1)
+# My New Project
+[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 ## Description 
-wefwefewf
+ewfwef
 
 ## Table of Contents
 
@@ -15,22 +15,24 @@ wefwefewf
 * [Questions](#questions)
 
 ## Installation
-wefwefw
+ewfwef
 
 ## Usage 
-wefwef
+wefwfe
 
 ## Credits
-undefined
+wefwef
 
 ## License
-  This project is under the GNU Lesser General Public License v2.1 license.
+  This project is covered under Creative Commons Zero v1.0 Universal.
 
 ## Contributing
 wefwef
 
 
 ## Tests
-ewfwef
+weffw
 
 ## Questions
+If you have any question, please go checkout my [Github profile](https://github.com/androidseb)
+or email me [thou.lucile@gmail.com](mailto:thou.lucile@gmail.com)

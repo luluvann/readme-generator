@@ -2,7 +2,11 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown.js");
+const licenses = require("./utils/licenses.js");
 // TODO: Create an array of questions for user input
+
+let LicensesNameList = generateLicensesNameList(licenses)
+
 const questions = [
   { type: "input", name: "title", message: "Provide your project Title:" },
   {
@@ -22,6 +26,11 @@ const questions = [
   },
   {
     type: "input",
+    name: "credits",
+    message: "Provide your project Credits:",
+  },
+  {
+    type: "input",
     name: "contributing",
     message: "Provide your project Contribution Guidelines:",
   },
@@ -34,21 +43,7 @@ const questions = [
     type: "list",
     name: "license",
     message: "Select your project Licence:",
-    choices: [
-      "Apache license 2.0 - apache-2.0",
-      "Boost Software License 1.0 - bsl-1.0",
-      'BSD 2-clause "Simplified" license - bsd-2-clause',
-      'BSD 3-clause "New" or "Revised" license - bsd-3-clause',
-      "Creative Commons Zero v1.0 Universal - cc0-1.0",
-      "Eclipse Public License 2.0 - epl-2.0",
-      "GNU Affero General Public License v3.0 - agpl-3.0",
-      "GNU General Public License v2.0 - gpl-2.0",
-      "GNU General Public License v3.0 - gpl-3.0",
-      "GNU Lesser General Public License v2.1 - lgpl-2.1",
-      "MIT - mit",
-      "Mozilla Public License 2.0 - mpl-2.0",
-      "The Unlicense - unlicense",
-    ],
+    choices: [...LicensesNameList],
   },
   {
     type: "input",
@@ -61,6 +56,14 @@ const questions = [
     message: "Provide your email address:",
   },
 ];
+
+function generateLicensesNameList(licenses){
+  licensesNameList = []
+  licenses.forEach(license => {
+    licensesNameList.push(license.licenseName)
+  })
+  return licensesNameList
+}
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
@@ -87,4 +90,4 @@ init()
   writeToFile("README",data)
 });
 
-/* writeToFile("README", { title: "new title", license: "MIT" }); */
+
