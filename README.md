@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description 
-Easily and quickly generate a professional and standard README file from the commande line.
+Easily and quickly generate a professional and standard README file from the commande line with NodeJS.
 
 ## Table of Contents
 
@@ -21,11 +21,11 @@ git clone git@github.com:luluvann/readme-generator.git
 ```
 2. Open the cloned repo in your text editor
 3. Open a terminal and make sure to cd to the root of the cloned repo
-4. Make sure to have NodeJS installed
+4. Make sure to have [NodeJS](https://nodejs.org/en/) installed
 ```shell
 node -v
 ``` 
-5. Install all the dependencies(inquirer package)
+5. Install all the dependencies (inquirer package)
 ```shell
 npm install
 ``` 
