@@ -8,7 +8,7 @@ Easily and quickly generate a professional and standard README file from the com
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Usage](#preview)
+* [Preview](#preview)
 * [Credits](#credits)
 * [License](#license)
 * [Contributing](#contributing)
