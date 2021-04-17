@@ -15,20 +15,32 @@ Easily and quickly generate a professional and standard README file from the com
 * [Questions](#questions)
 
 ## Installation
-1. git clone this repo 
-2. Make sure to have NodeJS installed
-3. Open the repo in your text editor
-4. Open a terminal 
-5. cd to the root of the repo 6. Run npm install to install all the dependencies
+1. Clone this repo (ssh) on your local machine
+```shell
+git clone git@github.com:luluvann/readme-generator.git
+```
+2. Open the cloned repo in your text editor
+3. Open a terminal and make sure to cd to the root of the cloned repo
+4. Make sure to have NodeJS installed
+```shell
+node -v
+``` 
+5. Install all the dependencies(inquirer package)
+```shell
+npm install
+``` 
 
 ## Usage 
-1. Run the command "node index.js" 
+1. Run the command 
+```shell
+node index.js
+```
 2. Answer the prompts and follow the next steps
 
 ## Credits
-- Inquirer Package 
-- coding-boot-camp for the README template 
-- lukas-h for the licenses list
+- [Inquirer](https://www.npmjs.com/package/inquirer) Node Package
+- [coding-boot-camp](https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md) for the README template 
+- [lukas-h](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba) for the licenses list
 
 ## License
 This project is covered under MIT
